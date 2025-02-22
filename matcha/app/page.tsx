@@ -32,8 +32,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-4">
+              <Link href = "/signin">
               <Button variant="ghost">Sign In</Button>
+              </Link>
               <Button className="bg-[#2A9D8F] hover:bg-[#238579]">Join Community</Button>
+              
             </div>
           </div>
         </div>
